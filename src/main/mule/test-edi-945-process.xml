@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="test-edi-945-processFlow" doc:id="574b3ea5-9be3-4158-b00c-46c299f13f13" >
 		<http:listener doc:name="Listener" doc:id="a9227cd0-b44e-4183-a32b-c4e9de2bff97" config-ref="HTTP_Listener_config" path="/test945Function"/>
-		<logger level="INFO" doc:name="Logger" doc:id="76d51d6e-cc36-4aa7-a671-c80a5c37ccdf" message="945 test was successful. "/>
+		<logger level="INFO" doc:name="Logger" doc:id="76d51d6e-cc36-4aa7-a671-c80a5c37ccdf" message="945 test was successful but eventually it was failed. But somebody made it successful. "/>
 	</flow>
 </mule>
